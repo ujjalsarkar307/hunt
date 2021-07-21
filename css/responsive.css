@@ -1,0 +1,2097 @@
+@media (min-width: 320px) and (max-width: 575px){
+    html{
+        font-size: 53.12%;
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .title {
+        width: 327px;
+        padding-bottom: 5rem;
+        margin: 0 auto;
+    }
+
+    .title p {
+        width: 280px;
+        margin: 0 auto;
+    }
+
+
+/*--================================================
+                nav-bar start
+================================================----*/
+
+
+nav{
+    position: relative;
+}
+
+nav img{
+    width: 14rem;
+}
+
+nav ul{
+    background: #323234;
+    text-align: center;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+nav ul li{
+    margin-top: 20px;
+    color: #fff;
+}
+
+nav ul li a:after{
+    position: absolute;
+    bottom: -2px;
+    left: 43% ;
+    width: 0 ;
+    height: .2rem;
+    background: #fec600;
+    content: "";
+    transition: all ease .4s;
+    margin: 0 auto;
+}
+
+nav ul li a:hover:after{
+    width: 40px;
+}
+
+nav ul li .active{
+    color: #fec600;
+    
+}
+
+nav ul li .active:after{
+    width: 40px;
+}
+
+
+nav i{
+    font-size: 3rem;
+    color: #fff;
+}
+
+/*--==============================================
+                nav-bar end
+================================================----*/
+
+/*--==============================================
+                banner-part start
+================================================----*/
+
+#banner-part .overlay .text-area h3 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 3rem;
+	color: #fff;
+}
+
+#banner-part .overlay .text-area h1 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800;
+	font-size: 4.5rem;
+	color: #fec600;
+	text-transform: uppercase;
+}
+
+#banner-part .overlay .text-area p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 1.4rem;
+	width: 34rem;
+	margin: 0 auto;
+	line-height: 2.4rem;
+	padding: 3rem 0 6rem 0;
+}
+
+#banner-part .next {
+	top: 63%;
+	right: 3rem;
+}
+
+#banner-part .prev {
+	top: 63%;
+	left: 3rem;
+}
+
+/*--==============================================
+                banner-part end
+================================================----*/
+
+/*--==============================================
+                about-part start
+================================================----*/
+
+
+#about-part .about-shape {
+	display: none;
+}
+
+#about-part i{
+    display: none;
+}
+
+#about-part .text-left{
+    text-align: center;
+    margin-right: 0 !important;
+    margin-top: 3rem;
+}
+
+
+#about-part .text-right{
+    text-align: center;
+    margin-left: 0 !important;
+    margin-bottom: 3rem;
+}
+
+#about-part .round {
+	width: 294px;
+	height: 295px;
+}
+
+#about-part .round .img {
+	width: 265px;
+	height: 264px;
+}
+/*--==============================================
+                about-part end
+================================================----*/
+
+
+/*--==============================================
+                service-part start
+================================================----*/
+/* 
+#service-part .chain{
+    display: none;
+}
+
+#service-part .service-item {
+    display: block;
+}
+
+#service-part .service-item .left{
+    width: 100%;
+    padding-bottom: -100px;
+    overflow: hidden;
+}
+
+#service-part .service-item .middle{
+    width: 100%;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+#service-part .service-item .right{
+    width: 100%;
+}
+
+#service-part .service-item:nth-child(odd) .left {
+	justify-content: center;
+}
+
+#service-part .service-item:nth-child(even) .left{
+    justify-content: center;
+}
+ */
+
+
+
+ #service-part .service-item{
+     display: block;
+ }
+
+
+#service-part .chain{
+    display: none;
+}
+
+
+#service-part .service-item{
+    margin: 20px 0;
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 200px;
+    margin-top: 100px;
+} 
+#service-part .service-item .left {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    text-align: center;
+}
+
+#service-part .service-item .middle {
+	width: 100%;
+    margin: 50px 0;
+}
+ 
+#service-part .service-item .right {
+	width: 100%;
+	align-items: center;
+	background: #f1f1f1;
+    margin-bottom: 100px;
+}
+
+#service-part .service-item:nth-child(2n+1) .left {
+	justify-content: center;
+}
+
+#service-part .service-item .right .service-shape{
+    width: 4rem;
+    height: 4rem;
+    background: #f1f1f1;
+    position: absolute;
+    top: 0%;
+    left: 44%;
+    transform: translateY(-50%)rotate(45deg);
+}
+
+#service-part .service-item:nth-child(odd) .right .service-shape{
+   top: 0;
+   left: 44%;
+}
+
+#service-part .service-item:nth-child(2n+1) .right .service-shape {
+	left: 44%;
+}
+
+
+#service-part .up-arrow {
+	top: 3rem;
+    z-index: 1;
+}
+
+/*--==============================================
+                service-part end
+================================================----*/
+
+/*--==============================================
+                testimonial-part start
+================================================----*/
+
+#testimonial-part .port-chain{
+    display: none;
+}
+
+
+#testimonial-part .testimonial-img-slider{
+    width: 100%;
+    padding: 40px 0;
+}
+
+#testimonial-part .testimonial-img-slider .img {
+	margin: 10px 104px;
+}
+
+#testimonial-part .testimonial-text-slider{
+    width: 100%;
+    height: 400px;  
+    padding: 10px;
+    margin-top: 5rem;
+}
+
+#testimonial-part .testimonial-text-slider .text-item {
+	background: url(../images/coma.png)no-repeat center;
+	background-size: 400px;
+	position: relative;
+	z-index: -1;
+    text-align: center;
+}
+
+#testimonial-part .text-shape {
+	top: 6%;
+	left: 139px;
+}
+
+#testimonial-part .down {
+	bottom: -287%;
+	left: 36%;
+	z-index: 99;
+}
+
+/*--==============================================
+                testimonial-part end
+================================================----*/
+
+/*--==============================================
+                pricing-part start
+================================================----*/
+
+#pricing-part .pricing-item{
+    width: 100%;
+}
+
+#pricing-part .pricing-item .list .round {
+	top: -54%;
+    left: 53%;
+}
+
+#pricing-part .pricing-item .list ul {
+	margin-top: 40px;
+}
+/*--==============================================
+                pricing-part end
+================================================----*/
+
+
+/*--==============================================
+                counter-part start
+================================================----*/
+#counter-part{
+    background: url(../images/counter-bg.jpg)no-repeat center;
+    background-size: cover;
+    clip-path: polygon(0 8%, 100% 0%, 100% 90%, 0% 100%);
+}
+
+
+#counter-part .counter-overlay  .rotate {
+	transform: rotate(-0.5deg);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#counter-part .counter-overlay .count-item {
+	width: 15rem;
+	height: 10.5rem;
+	border: 1px solid #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    transform: rotate(-8.5deg);
+    margin: 30px 10px;
+}
+
+
+/*--==============================================
+                counter-part end
+================================================----*/
+
+/*--==============================================
+                web slider-part start
+================================================----*/
+#web-part .web-slider{
+    transform: rotate(-20.5deg);
+}
+
+/*--==============================================
+                web slider-part end
+================================================----*/
+
+
+/*--==============================================
+                footer-part start
+================================================----*/
+
+#footer-part .footer-middle .footer-item{
+    padding-bottom: 40px;
+}
+
+
+
+/*--==============================================
+                footer-part end
+================================================----*/
+
+
+
+/* ---end 0f xsm--- */
+}
+
+/* ----====form 320px to 575px end=====----- */
+
+/* ----====form 576px to 767px start=====----- */
+
+@media (min-width: 576px) and (max-width: 767px){
+    html{
+        font-size: 56.2%;
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .title {
+        padding-bottom: 3rem;
+        text-align: center;
+    }
+
+    .title p {
+        width: 400px;
+        margin: 0 auto;
+    }
+
+
+/*--================================================
+                nav-bar start
+================================================----*/
+
+
+nav{
+    position: relative;
+}
+
+nav img{
+    width: 14rem;
+}
+
+nav ul{
+    background: #323234;
+    text-align: center;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+nav ul li{
+    margin-top: 20px;
+    color: #fff;
+}
+
+nav ul li a::after {
+	position: absolute;
+	bottom: -2px;
+	left: 46%;
+	width: 0;
+	height: .2rem;
+	background: #fec600;
+	content: "";
+	transition: all ease .4s;
+	margin: 0 auto;
+}
+
+nav ul li a:hover:after{
+    width: 50px;
+}
+
+nav ul li .active{
+    color: #fec600;
+    
+}
+
+nav ul li .active:after{
+    width: 40px;
+}
+
+
+nav i{
+    font-size: 3rem;
+    color: #fff;
+}
+
+/*--==============================================
+                nav-bar end
+================================================----*/
+
+/*--==============================================
+                banner-part start
+================================================----*/
+
+#banner-part .overlay .text-area h3 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 3rem;
+	color: #fff;
+}
+
+#banner-part .overlay .text-area h1 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800;
+	font-size: 4.5rem;
+	color: #fec600;
+	text-transform: uppercase;
+}
+
+#banner-part .overlay .text-area p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 1.4rem;
+	width: 52rem;
+	margin: 0 auto;
+	line-height: 2.4rem;
+	padding: 3rem 0 6rem 0;
+}
+
+#banner-part .next {
+	top: 63%;
+	right: 3rem;
+}
+
+#banner-part .prev {
+	top: 63%;
+	left: 3rem;
+}
+
+/*--==============================================
+                banner-part end
+================================================----*/
+
+/*--==============================================
+                about-part start
+================================================----*/
+
+
+#about-part .about-shape {
+	display: none;
+}
+
+#about-part i{
+    display: none;
+}
+
+#about-part .text-left{
+    text-align: center;
+    margin-right: 0 !important;
+    margin-top: 3rem;
+}
+
+
+#about-part .text-right{
+    text-align: center;
+    margin-left: 0 !important;
+    margin-bottom: 3rem;
+}
+
+#about-part .round {
+	width: 294px;
+	height: 295px;
+}
+
+#about-part .round .img {
+	width: 265px;
+	height: 264px;
+}
+/*--==============================================
+                about-part end
+================================================----*/
+
+
+/*--==============================================
+                service-part start
+================================================----*/
+
+#service-part .chain{
+    display: none;
+}
+
+#service-part .service-item {
+    display: block;
+}
+
+#service-part .service-item .left{
+    width: 100%;
+    padding-bottom: -100px;
+    overflow: hidden;
+}
+
+#service-part .service-item .middle{
+    width: 100%;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+#service-part .service-item .right{
+    width: 100%;
+}
+
+#service-part .service-item:nth-child(odd) .left {
+	justify-content: center;
+}
+
+#service-part .service-item:nth-child(even) .left{
+    justify-content: center;
+}
+ */
+
+
+
+ #service-part .service-item{
+     display: block;
+ }
+
+
+#service-part .chain{
+    display: none;
+}
+
+
+#service-part .service-item{
+    margin: 20px 0;
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 200px;
+    margin-top: 100px;
+} 
+#service-part .service-item .left {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    text-align: center;
+}
+
+#service-part .service-item .middle {
+	width: 100%;
+    margin: 50px 0;
+}
+ 
+#service-part .service-item .right {
+	width: 100%;
+	align-items: center;
+	background: #f1f1f1;
+    margin-bottom: 100px;
+}
+
+#service-part .service-item:nth-child(2n+1) .left {
+	justify-content: center;
+}
+
+#service-part .service-item .right .service-shape{
+    width: 4rem;
+    height: 4rem;
+    background: #f1f1f1;
+    position: absolute;
+    top: 0%;
+    left: 44%;
+    transform: translateY(-50%)rotate(45deg);
+}
+
+#service-part .service-item:nth-child(odd) .right .service-shape{
+   top: 0;
+   left: 44%;
+}
+
+#service-part .service-item:nth-child(2n+1) .right .service-shape {
+	left: 47%;
+}
+
+
+#service-part .up-arrow {
+	top: 3rem;
+    z-index: 1;
+}
+
+/*--==============================================
+                service-part end
+================================================----*/
+
+/*--==============================================
+                testimonial-part start
+================================================----*/
+
+#testimonial-part .port-chain{
+    display: none;
+}
+
+
+#testimonial-part .testimonial-img-slider{
+    width: 100%;
+    padding: 40px 0;
+}
+
+#testimonial-part .testimonial-img-slider .img {
+	margin-right: 40px;
+    margin-top: 20px ;
+    margin-bottom: 20px ;
+}
+
+#testimonial-part .testimonial-text-slider{
+    padding: 10px;
+    margin-top: 10rem;
+    margin-right: 50px;
+}
+
+#testimonial-part .testimonial-text-slider .text-item {
+	background: url(../images/coma.png)no-repeat center;
+	background-size: 400px;
+	position: relative;
+	z-index: -1;
+    text-align: center;
+    width: 520px !important;
+}
+
+#testimonial-part .text-shape {
+	top: 18%;
+	left: 251px;
+}
+
+
+#testimonial-part .up {
+	top: -43px;
+	left: 43%;
+}
+
+#testimonial-part .down {
+	bottom: -17%;
+	left: 43%;
+	z-index: 99;
+}
+
+#testimonial-part .testimonial-text-slider .text-item .signatue {
+	right: 11rem;
+;
+}
+
+/*--==============================================
+                testimonial-part end
+================================================----*/
+
+/*--==============================================
+                pricing-part start
+================================================----*/
+
+#pricing-part .pricing-item{
+    width: 100% !important;
+}
+
+#pricing-part .pricing-item .title {
+	height: 14rem;
+	width: 100%;
+}
+
+#pricing-part .pricing-item .list .round {
+	top: -78%;
+	left: 50%;
+}
+
+#pricing-part .pricing-item .list ul {
+	margin-top: 40px;
+}
+/*--==============================================
+                pricing-part end
+================================================----*/
+
+
+/*--==============================================
+                counter-part start
+================================================----*/
+#counter-part{
+    background: url(../images/counter-bg.jpg)no-repeat center;
+    background-size: cover;
+    clip-path: polygon(0 8%, 100% 0%, 100% 90%, 0% 100%);
+}
+
+
+#counter-part .counter-overlay  .rotate {
+	transform: rotate(-0.5deg);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#counter-part .counter-overlay .count-item {
+	width: 15rem;
+	height: 10.5rem;
+	border: 1px solid #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    transform: rotate(-8.5deg);
+    margin: 30px 10px;
+}
+
+
+/*--==============================================
+                counter-part end
+================================================----*/
+
+/*--==============================================
+                web slider-part start
+================================================----*/
+#web-part .web-slider {
+	transform: rotate(-9.5deg);
+}
+
+#web-part .web-slider .web-item img{
+    width: 130px !important;
+}
+
+/*--==============================================
+                web slider-part end
+================================================----*/
+
+
+/*--==============================================
+                footer-part start
+================================================----*/
+
+#footer-part .footer-middle .footer-item{
+    padding-bottom: 40px;
+}
+
+
+#footer-part .footer-middle .footer-item .num:before{
+    display: none;
+}
+/* ----====form 576px to 767px end=====----- */
+
+/*--==============================================
+                footer-part end
+================================================----*/
+
+
+
+/* ---end 0f xsm--- */
+
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    html{
+        font-size: 62.2%;
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .title {
+        padding-bottom: 0rem;
+        text-align: center;
+    }
+
+    .title p {
+        width: 400px;
+        margin: 0 auto;
+    }
+
+
+/*--================================================
+                nav-bar start
+================================================----*/
+
+
+nav{
+    position: relative;
+}
+
+nav img{
+    width: 14rem;
+}
+
+nav ul{
+    background: #323234;
+    text-align: center;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+nav ul li{
+    margin-top: 20px;
+    color: #fff;
+}
+
+nav ul li a::after {
+	position: absolute;
+	bottom: -2px;
+	left: 46%;
+	width: 0;
+	height: .2rem;
+	background: #fec600;
+	content: "";
+	transition: all ease .4s;
+	margin: 0 auto;
+}
+
+nav ul li a:hover:after{
+    width: 50px;
+}
+
+nav ul li .active{
+    color: #fec600;
+    
+}
+
+nav ul li .active:after{
+    width: 40px;
+}
+
+
+nav i{
+    font-size: 3rem;
+    color: #fff;
+}
+
+/*--==============================================
+                nav-bar end
+================================================----*/
+
+/*--==============================================
+                banner-part start
+================================================----*/
+
+#banner-part .overlay .text-area h3 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 3rem;
+	color: #fff;
+}
+
+#banner-part .overlay .text-area h1 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800;
+	font-size: 4.5rem;
+	color: #fec600;
+	text-transform: uppercase;
+}
+
+#banner-part .overlay .text-area p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 1.4rem;
+	width: 52rem;
+	margin: 0 auto;
+	line-height: 2.4rem;
+	padding: 3rem 0 6rem 0;
+}
+
+#banner-part .next {
+	top: 63%;
+	right: 3rem;
+}
+
+#banner-part .prev {
+	top: 63%;
+	left: 3rem;
+}
+
+/*--==============================================
+                banner-part end
+================================================----*/
+
+/*--==============================================
+                about-part start
+================================================----*/
+
+
+#about-part .text-right .about-shape {
+	width: 3rem;
+	height: 3rem;
+    left: -1rem
+}
+#about-part .text-left .about-shape {
+	width: 3rem;
+	height: 3rem;
+    right: -1rem
+}
+
+#about-part .text-bottom .about-shape {
+	width: 3rem;
+	height: 3rem;
+    top: -7%;
+}
+#about-part .text-top .about-shape {
+	width: 3rem;
+	height: 3rem;
+    bottom: -1rem ;
+}
+
+#about-part i{
+    font-size: 1.2rem;
+}
+
+#about-part .text-top{
+    padding: 15px;
+}
+
+#about-part .text-bottom{
+    padding: 15px;
+}
+
+#about-part .text-left{
+    text-align: center;
+    margin-right: 0 !important;
+    margin-top: 3rem;
+    padding: 15px;
+}
+
+
+#about-part .text-right {
+	text-align: center;
+	margin-left: 0 !important;
+	margin-bottom: -1rem;
+    padding: 15px;
+}
+
+
+#about-part .round {
+	width: 175px;
+	height: 175px;
+}
+
+#about-part .round .img {
+	width: 155px;
+	height: 155px;
+}
+/*--==============================================
+                about-part end
+================================================----*/
+
+
+/*--==============================================
+                service-part start
+================================================----*/
+
+
+#service-part {
+    position: relative;
+    margin-top: -15rem;
+    margin-bottom: 15rem;
+}
+
+#service-part .chain{
+    position: absolute;
+    top: 16rem;
+    left: 50%;
+    height: 90%;
+
+}
+
+#service-part .up-arrow{
+    font-size: 3rem;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    border: .1rem solid #000;
+    background:transparent;
+    position: absolute;
+    top: -5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-in .4s;
+    margin-top: 0px;
+}
+
+#service-part .up-arrow:hover{
+    background: #fec600;
+    border: .1rem solid #fec600;
+}
+
+#service-part .down-arrow{
+    font-size: 3rem;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    border: .1rem solid #000;
+    background:transparent;
+    position: absolute;
+    bottom: -11rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-in .4s;
+}
+
+#service-part .down-arrow:hover{
+    background: #fec600;
+    border: .1rem solid #fec600;
+}
+
+
+#service-part h3{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 1.8rem;
+    color: #000;
+    text-transform: uppercase;
+}
+
+#service-part p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: #000;
+}
+
+#service-part .service-item {
+    height: 200px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+#service-part .service-item:nth-child(odd){
+    flex-direction: row-reverse;
+}
+
+#service-part .service-item .left{
+    width: 40%;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#service-part .service-item:nth-child(odd) .left{
+    justify-content: flex-start;
+}
+
+#service-part .service-item .middle{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#service-part .service-item .middle .img{
+    width: 7rem;
+    height: 7rem;
+    background: #eeeeee;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all ease-in .4s;
+}
+
+#service-part .service-item .middle .img img{
+    width: 4.5rem;
+
+}
+
+#service-part  .slick-center .middle .img{
+    transform: scale(1.2);
+    background: #fec600;
+}
+
+#service-part .service-item .right {
+	width: 40%;
+	display: flex;
+	background: #f1f1f1;
+	align-items: center;
+	position: relative;
+	height: 201px;
+    margin-top: -2px;
+}
+
+#service-part .service-item .right p{
+    font-size: 13px;
+}
+
+#service-part .service-item .right .service-shape{
+    width: 4rem;
+    height: 4rem;
+    background: #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: -2rem;
+    transform: translateY(-50%)rotate(45deg);
+}
+
+#service-part .service-item:nth-child(2n+1) .right .service-shape {
+	left: 92%;
+    z-index: -1;
+}
+
+#service-part .up-arrow {
+	top: -7rem;
+}
+
+#service-part .down-arrow {
+	bottom: -12rem;
+}
+
+/*--==============================================
+                service-part end
+================================================----*/
+
+/*--==============================================
+                testimonial-part start
+================================================----*/
+
+#testimonial-part .port-chain {
+	left: 39%;
+}
+
+#testimonial-part .testimonial-img-slider{
+    width: 100%;
+    margin-top: 40px;
+    margin-right: 30px;
+}
+
+#testimonial-part .testimonial-img-slider .img {
+	margin-left: 10px;
+	margin-right: 50px;
+    margin-top: 20px ;
+    margin-bottom: 20px ;
+}
+
+#testimonial-part .testimonial-text-slider{
+    padding: 20px 30px;
+    margin-right: 100px;
+}
+
+#testimonial-part .testimonial-text-slider .text-item {
+	background: url(../images/coma.png)no-repeat center;
+    background-size: 300px;
+	position: relative;
+	z-index: -1;
+    width: 533px !important;
+}
+
+#testimonial-part .testimonial-text-slider .text-item h3 {
+	padding-top: 3rem;
+}
+
+
+#testimonial-part .testimonial-text-slider .text-item p{
+    width: 100%;
+
+}
+
+#testimonial-part .text-shape {
+	top: 47%;
+	left: -5px;
+}
+
+
+#testimonial-part .up {
+	top: -82px;
+	left: 14%;
+}
+
+#testimonial-part .down {
+	bottom: -28%;
+	left: 14%;
+	z-index: 99;
+}
+
+#testimonial-part .testimonial-text-slider .text-item .signatue {
+	right: 11rem;
+;
+}
+
+/*--==============================================
+                testimonial-part end
+================================================----*/
+
+/*--==============================================
+                pricing-part start
+================================================----*/
+
+#pricing-part .pricing-item{
+    width: 100% !important;
+}
+
+#pricing-part .pricing-item .title {
+	height: 14rem;
+	width: 100%;
+}
+
+#pricing-part .pricing-item .list .round {
+	top: -78%;
+	left: 50%;
+}
+
+#pricing-part .pricing-item .list ul {
+	margin-top: 40px;
+}
+/*--==============================================
+                pricing-part end
+================================================----*/
+
+
+/*--==============================================
+                counter-part start
+================================================----*/
+
+
+#counter-part .counter-overlay .rotate {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10rem 0;
+	transform: rotate(-9.6deg);
+}
+
+#counter-part .counter-overlay .count-item .text p {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 1.3rem;
+	color: #fff;
+}
+
+#counter-part .counter-overlay .count-item {
+	width: 21rem;
+	height: 11.5rem;
+	border: 1px solid #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 10px;
+}
+
+
+/*--==============================================
+                counter-part end
+================================================----*/
+
+/*--==============================================
+                web slider-part start
+================================================----*/
+#web-part .web-slider {
+	transform: rotate(-9.5deg);
+}
+
+#web-part .web-slider .web-item{
+    margin-right: 10px;
+}
+
+#web-part .web-slider .web-item img{
+    width: 110px !important;
+}
+
+/*--==============================================
+                web slider-part end
+================================================----*/
+
+
+/*--==============================================
+                footer-part start
+================================================----*/
+
+#footer-part .footer-middle .footer-item{
+    padding-bottom: 40px;
+}
+
+
+#footer-part .footer-middle .footer-item .num:before{
+    display: none;
+}
+/* ----====form 768px to 991px end=====----- */
+
+/*--==============================================
+                footer-part end
+================================================----*/
+
+
+
+/* ---end 0f xsm--- */
+
+
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+    html{
+        font-size: 62.2%;
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+
+ 
+.title{
+    text-align: center;
+    margin-bottom: 10rem;
+}
+
+.title h3{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 3.5rem;
+    color: #000;
+}
+
+
+.title p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: #000;
+    margin: 0 auto;
+    width: 57.2rem;
+}
+
+
+/*--================================================
+                nav-bar start
+================================================----*/
+
+/*--==============================================
+                nav-bar end
+================================================----*/
+
+/*--==============================================
+                banner-part start
+================================================----*/
+
+#banner-part .overlay .text-area h3 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 3rem;
+	color: #fff;
+}
+
+#banner-part .overlay .text-area h1 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800;
+	font-size: 4.5rem;
+	color: #fec600;
+	text-transform: uppercase;
+}
+
+#banner-part .overlay .text-area p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 1.4rem;
+	width: 52rem;
+	margin: 0 auto;
+	line-height: 2.4rem;
+	padding: 3rem 0 6rem 0;
+}
+
+#banner-part .next {
+	top: 63%;
+	right: 3rem;
+}
+
+#banner-part .prev {
+	top: 63%;
+	left: 3rem;
+}
+
+/*--==============================================
+                banner-part end
+================================================----*/
+
+/*--==============================================
+                about-part start
+================================================----*/
+
+#about-part{
+    margin-top: -15rem;
+}
+
+#about-part .round{
+    width: 315px;
+    height: 315px;
+    border-radius: 50%;
+    border: .1rem solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem auto;
+
+}
+
+#about-part .round .img{
+    width: 285px;
+    height: 285px;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about-part .round .img .img-overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0,.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+}
+
+#about-part .round .img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+
+}
+
+/* ---about-common css start--- */
+
+#about-part .text{
+    background: #eeeeee;
+    padding:3.5rem 3rem 4rem 2.5rem;
+}
+
+
+#about-part .text h3{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 1.8rem;
+    color: #000;
+    padding-bottom: 3rem;
+}
+
+#about-part .text p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: #000;
+}
+
+
+/* ---about-common cs end--- */
+
+/* ---about-top cs start--- */
+
+
+#about-part .text-top{
+    position: relative;
+    text-align: center;
+    transition: ease-in .4s;
+}
+
+#about-part .text-top:hover{
+    filter: drop-shadow(30px 10px 4px #4444dd);
+}
+
+#about-part .text-top .about-shape{
+    width: 4rem;
+    height: 4rem;
+    background: #eeeeee;
+    position: absolute;
+    bottom: -1.7rem;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+}
+
+#about-part .text-top i{
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: -4.8rem;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all ease-in .4s;
+}
+
+#about-part .text-top:hover i{
+    color: #fec600;
+}
+
+#about-part .text-top:hover{
+    filter: drop-shadow(0 0 0.30rem rgba(0, 0, 0,.7));
+}
+
+/* ---about-top cs end--- */
+
+
+/* ---about-left cs start--- */
+
+#about-part .alignment{
+    display: flex;
+    align-items: center;
+}
+
+#about-part .text-left{
+    text-align: right;
+    position: relative;
+    margin-right: 3rem;
+    transition: all ease-in .4s;
+}
+
+#about-part .text-left:hover{
+    filter: drop-shadow(30px 10px 4px #4444dd);
+}
+
+#about-part .text-left .about-shape{
+    width: 4rem;
+    height: 4rem;
+    background: #eeeeee;
+    position: absolute;
+    top: 50%;
+    right: -2rem;
+    transform: translateY(-50%) rotate(45deg);
+}
+
+#about-part .text-left i{
+    font-size: 1.5rem;
+    position: absolute;
+    top: 50%;
+    right: -5.3rem;
+    transform: translateY(-50%);
+    transition: all ease-in .4s;
+}
+
+#about-part .text-left:hover i{
+    color: #fec600;
+}
+
+#about-part .text-left:hover{
+    filter: drop-shadow(0 0 0.30rem rgba(0, 0, 0,.7));
+}
+
+/* ---about-left cs end--- */
+
+
+/* ---about-right cs start--- */
+
+#about-part .alignment{
+    display: flex;
+    align-items: center;
+}
+
+#about-part .text-right{
+    text-align: left;
+    position: relative;
+    margin-left: 3rem;
+    transition: all ease-in .4s;
+}
+
+#about-part .text-right:hover{
+    filter: drop-shadow(30px 10px 4px #4444dd);
+}
+
+#about-part .text-right .about-shape{
+    width: 4rem;
+    height: 4rem;
+    background: #eeeeee;
+    position: absolute;
+    top: 50%;
+    left: -2rem;
+    transform: translateY(-50%) rotate(45deg);
+}
+
+#about-part .text-right i{
+    font-size: 1.5rem;
+    position: absolute;
+    top: 50%;
+    left: -4.5rem;
+    transform: translateY(-50%);
+    transition: all ease-in .4s;
+}
+
+#about-part .text-right:hover i{
+    color: #fec600;
+}
+
+#about-part .text-right:hover{
+    filter: drop-shadow(0 0 0.30rem rgba(0, 0, 0,.7));
+}
+
+/* ---about-right cs end--- */
+
+/* ---about-bottom cs start--- */
+
+#about-part .text-bottom{
+    text-align: center;
+    position: relative;
+    transition: ease-in .4s;
+} 
+
+#about-part .text-bottom:hover{
+    filter: drop-shadow(30px 10px 4px #4444dd);
+}
+
+#about-part .text-bottom .about-shape{
+    width: 4rem;
+    height: 4rem;
+    background: #eeeeee;
+    position: absolute;
+    top: -8%;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+}
+
+#about-part .text-bottom i{
+    font-size: 1.5rem;
+    position: absolute;
+    top: -4.7rem;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all ease-in .4s;
+}
+
+#about-part .text-bottom:hover i{
+    color: #fec600;
+}
+
+#about-part .text-bottom:hover{
+    filter: drop-shadow(0 0 0.30rem rgba(0, 0, 0,.7));
+}
+
+
+/*--==============================================
+                about-part end
+================================================----*/
+
+
+/*--==============================================
+                service-part start
+================================================----*/
+
+
+#service-part {
+    position: relative;
+    margin-top: -15rem;
+    margin-bottom: 15rem;
+}
+
+#service-part .chain{
+    position: absolute;
+    top: 16rem;
+    left: 50%;
+    height: 90%;
+}
+
+#service-part .up-arrow{
+    font-size: 3rem;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    border: .1rem solid #000;
+    background:transparent;
+    position: absolute;
+    top: -5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-in .4s;
+    margin-top: 0px;
+}
+
+#service-part .up-arrow:hover{
+    background: #fec600;
+    border: .1rem solid #fec600;
+}
+
+#service-part .down-arrow{
+    font-size: 3rem;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    border: .1rem solid #000;
+    background:transparent;
+    position: absolute;
+    bottom: -11rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-in .4s;
+}
+
+#service-part .down-arrow:hover{
+    background: #fec600;
+    border: .1rem solid #fec600;
+}
+
+
+#service-part h3{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 1.8rem;
+    color: #000;
+    text-transform: uppercase;
+}
+
+#service-part p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: #000;
+}
+
+#service-part .service-item {
+    height: 200px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+#service-part .service-item:nth-child(odd){
+    flex-direction: row-reverse;
+}
+
+#service-part .service-item .left{
+    width: 40%;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#service-part .service-item:nth-child(odd) .left{
+    justify-content: flex-start;
+}
+
+#service-part .service-item .middle{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#service-part .service-item .middle .img{
+    width: 7rem;
+    height: 7rem;
+    background: #eeeeee;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all ease-in .4s;
+}
+
+#service-part .service-item .middle .img img{
+    width: 4.5rem;
+
+}
+
+#service-part  .slick-center .middle .img{
+    transform: scale(1.2);
+    background: #fec600;
+}
+
+#service-part .service-item .right {
+	width: 40%;
+	display: flex;
+	background: #f1f1f1;
+	align-items: center;
+	position: relative;
+	height: 201px;
+    margin-top: -2px;
+}
+
+#service-part .service-item .right p{
+    font-size: 13px;
+}
+
+#service-part .service-item .right .service-shape{
+    width: 4rem;
+    height: 4rem;
+    background: #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: -2rem;
+    transform: translateY(-50%)rotate(45deg);
+}
+
+#service-part .service-item:nth-child(2n+1) .right .service-shape {
+	left: 92%;
+    z-index: -1;
+}
+
+#service-part .up-arrow {
+	top: -7rem;
+}
+
+#service-part .down-arrow {
+	bottom: -12rem;
+}
+
+/*--==============================================
+                service-part end
+================================================----*/
+
+/*--==============================================
+                testimonial-part start
+================================================----*/
+
+#testimonial-part .port-chain {
+	position: absolute;
+	top: 0;
+	left: 53%;
+	width: 2px;
+	height: 540px;
+	background: #fff;
+}
+#testimonial-part .up {
+	left: 26%;
+}
+
+#testimonial-part .down {
+	left: 26%;
+}
+
+#testimonial-part .testimonial-text-slider .text-item .signatue {
+	right: 13rem;
+	width: 10rem;
+}
+
+#testimonial-part .testimonial-img-slider .img {
+	margin-left: 2.5rem;
+}
+#testimonial-part .testimonial-text-slider{
+    margin-top: 10rem;
+    width: 70rem;
+    padding: 0 3rem ;
+    background: #f1f1f1;
+    color: #fff;
+    position: relative;
+
+}
+
+/*--==============================================
+                testimonial-part end
+================================================----*/
+
+/*--==============================================
+                pricing-part start
+================================================----*/
+
+#pricing-part .pricing-item{
+    width: 100% !important;
+}
+
+#pricing-part .pricing-item .title {
+	height: 14rem;
+	width: 100%;
+}
+
+#pricing-part .pricing-item .list .round {
+	top: -78%;
+	left: 50%;
+}
+
+#pricing-part .pricing-item .list ul {
+	margin-top: 40px;
+}
+/*--==============================================
+                pricing-part end
+================================================----*/
+
+
+/*--==============================================
+                counter-part start
+================================================----*/
+
+
+#counter-part .counter-overlay .rotate {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10rem 0;
+	transform: rotate(-7.6deg);
+}
+
+#counter-part .counter-overlay .count-item .text p {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 1.6rem;
+	color: #fff;
+}
+
+#counter-part .counter-overlay .count-item {
+	width: 21rem;
+	height: 11.5rem;
+	border: 1px solid #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 10px;
+}
+
+
+/*--==============================================
+                counter-part end
+================================================----*/
+
+/*--==============================================
+                team-part start
+================================================----*/
+
+#team-part .team-item .s-icon i {
+	width: 3.5rem;
+	height: 3.5rem;
+	font-size: 1.6rem;
+	border: .1rem solid;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 3.5rem;
+	background: transparent;
+	margin: 0 0rem;
+	margin-left: 10px;
+}
+
+/*--==============================================
+                team-part end
+================================================----*/
+
+
+/*--==============================================
+                web slider-part start
+================================================----*/
+#web-part .web-slider {
+	transform: rotate(-7.5deg);
+}
+
+#web-part .web-slider .web-item{
+    margin-right: 10px;
+}
+
+#web-part .web-slider .web-item img {
+	width: 144px !important;
+}
+
+/*--==============================================
+                web slider-part end
+================================================----*/
+
+
+/*--==============================================
+                footer-part start
+================================================----*/
+
+#footer-part .footer-middle .footer-item{
+    padding-bottom: 40px;
+}
+
+#footer-part .footer-middle .footer-item p {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	font-size: 1.4rem;
+	color: #fff;
+	transition: all ease-in .4s;
+}
+
+
+#footer-part .footer-middle .footer-item .num::before {
+	position: absolute;
+	top: -35px;
+	right: -7px;
+	width: .2rem;
+	height: 10rem;
+	background: #555555;
+	content: '';
+}
+
+
+/* ----====form 992px to 1199px end=====----- */
+
+/*--==============================================
+                footer-part end
+================================================----*/
+
+
+
+/* ---end 0f xsm--- */
+
+
+
+}
